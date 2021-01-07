@@ -4,8 +4,8 @@ import datas from "./data";
 import "./App.css";
 function App() {
   const loginUser = {
-    username: "lavishjain36@gmail.com",
-    password: "lavish",
+    username: "hruday@gmail.com",
+    password: "hruday123",
   };
 
   const [user, setUser] = useState({ email: "" });
