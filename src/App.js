@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       {user.email ? (
         <div className="container">
-          <h1>Welcome to Employee List Page</h1>
+          <h1>Welcome To Employee List Page</h1>
           <table border={5} cellPadding={20}>
             <tbody>
               <tr>
