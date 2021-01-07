@@ -4,11 +4,12 @@ import datas from "./data";
 import "./App.css";
 function App() {
   const loginUser = {
-    username: "hruday@gmail.com",
-    password: "hruday123",
+    username: "lavishjain36@gmail.com",
+    password: "lavish",
   };
 
   const [user, setUser] = useState({ email: "" });
+  // eslint-disable-next-line
   const [Employees, setEmps] = useState([]);
 
   useEffect(() => {
