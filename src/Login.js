@@ -13,15 +13,7 @@ const Login = ({ loginUserFn, errors }) => {
       <p>{errors.errors}</p>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <img
-            width="700px"
-            border="1px"
-            border-radius="20px"
-            height="200px"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCTHs5oZb95Cbk0QKNu1IgmUHdTP4KPfL3Ig&usqp=CAU"
-            alt=""
-          />
-          <h1>Welcome to Appiness Interactive</h1>
+          <h1>Welcome to our Page</h1>
           <h2>Login Form</h2>
           <br />
           <br />
